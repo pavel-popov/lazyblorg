@@ -1,10 +1,13 @@
-#!/bin/sh
+#!/bin/bash
+set -o errexit
+set -o nounset
+set -o pipefail
 
-# rm -rf testdata/2del/*
+TARGETDIR=rendered/
+rm -rf $TARGETDIR
 
 # create the output directory (and parents):
-mkdir -p testdata/2del/blog
-
+mkdir -p $TARGETDIR
 
 # get help on the following parameters: «python ./lazyblorg.py --help»
 
@@ -16,13 +19,18 @@ mkdir -p testdata/2del/blog
 # 5. modify --orgfiles so that your org-mode files are parsed
 #    don't forget to include your version of «about-placeholder.org» and «blog-format.org»
 
-PYTHONPATH="~/src/lazyblorg:" ./lazyblorg.py \
-    --targetdir testdata/2del/blog \
-    --previous-metadata ./NONEXISTING_-_REPLACE_WITH_YOUR_PREVIOUS_METADATA_FILE.pk \
-    --new-metadata ./2del-metadata.pk \
-    --logfile ./2del-logfile.org \
-    --orgfiles testdata/end_to_end_test/orgfiles/test.org \
-               testdata/end_to_end_test/orgfiles/about-placeholder.org \
+./lazyblorg.py \
+    --targetdir $TARGETDIR \
+    --previous-metadata ./pavel-popov-metadata.pk \
+    --new-metadata ./pavel-popov-new-metadata.pk \
+    --logfile ./pp.org \
+    --orgfiles ~/Documents/org/pavel.org \
+               ~/Documents/FindHotel/fh.org \
                templates/blog-format.org $@
+
+
+# copy assets
+mkdir $TARGETDIR/assets
+cp templates/*.css $TARGETDIR/assets/
 
 #END

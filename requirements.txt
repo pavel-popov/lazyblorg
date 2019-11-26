@@ -2,4 +2,3 @@ orgformat>=2019.11.6.1
 opencv-python
 werkzeug
 pypandoc
-hashlib

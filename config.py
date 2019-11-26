@@ -18,18 +18,18 @@ import os
 
 
 # strings: Your personal name and the name of your blog:
-AUTHOR_NAME = 'Karl Voit'
-BLOG_NAME = 'public voit'
+AUTHOR_NAME = 'Pavel Popov'
+BLOG_NAME = 'Pavel solves problems'
 
 ## strings: Define your URLs and your name below:
-DOMAIN = 'Karl-Voit.at'
+DOMAIN = 'pavel-popov.github.io'
 BASE_URL = '//' + DOMAIN
-CSS_URL = BASE_URL + '/public_voit.css'
-BLOG_LOGO = BASE_URL + '/images/public-voit_logo.svg'
-DISQUS_NAME = 'publicvoit'  # gets placed in: '//publicvoit.disqus.com/embed.js'
+CSS_URL = '/assets/public_voit.css'
+BLOG_LOGO = 'https://pbs.twimg.com/profile_banners/14387068/1571578708/1500x500'
+DISQUS_NAME = 'schmooser'  # gets placed in: '//publicvoit.disqus.com/embed.js'
 
 ## string: Email address to send comments to:
-COMMENT_EMAIL_ADDRESS = 'publicvoit-comment@Karl-Voit.at'
+COMMENT_EMAIL_ADDRESS = 'schmooser@gmail.com'
 
 ## integer: Show this many article teasers on entry page
 NUMBER_OF_TEASER_ARTICLES = 25
@@ -38,8 +38,8 @@ NUMBER_OF_TEASER_ARTICLES = 25
 NUMBER_OF_TOP_TAGS = 10
 
 ## list of strings: tags to ignore when generating misc things:
-IGNORE_FOR_TOP_TAGS = ['suderei', 'personally']
-IGNORE_FOR_TAG_CLOUD = ['suderei', 'personally', 'hardware', 'software']
+IGNORE_FOR_TOP_TAGS = []
+IGNORE_FOR_TAG_CLOUD = []
 
 ## integer: Show this many article in Atom feeds:
 NUMBER_OF_FEED_ARTICLES = 25
@@ -47,15 +47,15 @@ NUMBER_OF_FEED_ARTICLES = 25
 ## string: This is the Org-mode property :ID: of your blog article which
 ##         is used for the about page of your blog.
 ## See example in: testdata/end_to_end_test/orgfiles/about-placeholder.org
-ID_OF_ABOUT_PAGE = '2014-03-09-about'
+ID_OF_ABOUT_PAGE = '2019-11-25-about'
 
 ## string: This is the Org-mode property :ID: of your blog article which
 ##         is used for the "How to use this blog efficiently" page of your blog.
-ID_OF_HOWTO_PAGE = '2017-01-03-how-to-use-public-voit'
+ID_OF_HOWTO_PAGE = '2019-11-25-about'
 
 ## string: Your Twitter handle/username which is used in the HTML header
 ##         metadata (without the @ character)
-TWITTER_HANDLE = 'n0v0id'
+TWITTER_HANDLE = 'schmooser'
 
 ## string: An image which is added to the HTML header metadata and is used
 ##         by Twitter in Twitter cards to visualize your blog (also used
@@ -64,7 +64,7 @@ TWITTER_IMAGE = 'http://Karl-Voit.at/images/public-voit_T_logo_200x200.png'
 
 ## string: Replace "+01:00" below with your time-zone indicator
 ## This string gets added to the time strings in order to describe time zone of the blog:
-TIME_ZONE_ADDON = '+01:00'
+TIME_ZONE_ADDON = '+02:00'
 
 ## string: Customized link key for linking image files within an article
 ## See https://www.gnu.org/software/emacs/manual/html_node/org/Link-abbreviations.html
@@ -111,7 +111,7 @@ DIRECTORIES_WITH_IMAGE_ORIGINALS = ["testdata/testimages",
 ## If not empty: Contains a tag which should be part of any image
 ## file included. If the image file does not contain this filetag,
 ## a warning is issued in the console output.
-WARN_IF_IMAGE_FILE_NOT_TAGGED_WITH="publicvoit"
+WARN_IF_IMAGE_FILE_NOT_TAGGED_WITH="publicpp"
 
 ## According to https://github.com/novoid/lazyblorg/wiki/Images
 ## you can link to a differently sized image when including a
@@ -125,7 +125,7 @@ WARN_IF_IMAGE_FILE_NOT_TAGGED_WITH="publicvoit"
 ## another language, you need to make sure the auto-tag mechanism
 ## within Utils is extended as well and the language identifier
 ## matches the dict keys below.
-CLUE_TEXT_FOR_LINKED_IMAGES = {'german': '(klicken für größere Version)',
+CLUE_TEXT_FOR_LINKED_IMAGES = {'russian': '(кликните для большой версии)',
                                'english': '(click for a larger version)'}
 
 ## ===================================================================== ##

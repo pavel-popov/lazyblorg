@@ -79,7 +79,7 @@ Have fun with modifying lazyblorg to your requirements!
      <li><a href="#BASE-URL#">Recent articles</a></li>
      <li>[[id:#ABOUT-PAGE-ID#][About this blog]]</li>
      <li>[[id:#HOWTO-PAGE-ID#][How to use this blog efficiently]]</li>
-     <li><img src="#BASE-URL#/images/feed-icon-14x14.png" alt="RSS icon" />&nbsp;Subscribe to one of my feeds:</li>
+     <li>Subscribe to one of my feeds:</li>
          <ul>
          <li><span style="font-size:small"><a href="#BASE-URL#/feeds/lazyblorg-all.atom_1.0.links-only.xml">links only feed</a> (most reliable)</span></li>
          <li><span style="font-size:small"><a href="#BASE-URL#/feeds/lazyblorg-all.atom_1.0.links-and-teaser.xml">article teaser feed</a></span></li>
@@ -334,7 +334,7 @@ With name/label:
 
       <nav class="entrypage-article-header-nav">
         <span class="breadcrumbs">
-          <img src="#BLOG-LOGO#" alt="#BLOG-NAME# logo" width="350" style="vertical-align:middle;"><span style="padding-top:1em;">
+          <img src="#BLOG-LOGO#" alt="#BLOG-NAME# logo" width="100%" style="vertical-align:middle;"><span style="padding-top:1em;">
         </span>
       </nav>
 
@@ -529,7 +529,7 @@ With name/label:
 
 	  <nav class="persistent-article-header-nav">
 	    <span class="breadcrumbs">
-	      <a href="../"><img src="#BLOG-LOGO#" alt="#BLOG-NAME# logo" width="350" style="vertical-align:middle;"></a>
+	      <a href="../"><img src="#BLOG-LOGO#" alt="#BLOG-NAME# logo" width="100%" style="vertical-align:middle;"></a>
 	    </span>
 	  </nav>
 
@@ -677,7 +677,7 @@ With name/label:
 
 	  <nav class="temporal-article-header-nav">
 	    <span class="breadcrumbs">
-	      <a href="../../../../"><img src="#BLOG-LOGO#" alt="#BLOG-NAME# logo" width="350" style="vertical-align:middle;"></a><span style="padding-top:1em;">&nbsp;&nbsp;&nbsp;&nbsp;&raquo;
+	      <a href="../../../../"><img src="#BLOG-LOGO#" alt="#BLOG-NAME# logo" width="100%" style="vertical-align:middle;"></a><span style="padding-top:1em;">&nbsp;&nbsp;&nbsp;&nbsp;&raquo;
 	      <a href="../../../">#ARTICLE-YEAR#</a>&nbsp;&ndash;&nbsp;<a href="../../">#ARTICLE-MONTH#</a>&nbsp;&ndash;&nbsp;<a href="../">#ARTICLE-DAY#</a></span>
 	    </span>
 	  </nav>
@@ -851,7 +851,7 @@ A single page which is used as template for =example.com/tags/index.html=.
 
 	  <nav class="temporal-article-header-nav">
 	    <span class="breadcrumbs">
-	      <a href="../"><img src="#BLOG-LOGO#" alt="#BLOG-NAME# logo" width="350" style="vertical-align:middle;"></a><span style="padding-top:1em;">&nbsp;&nbsp;&nbsp;&nbsp;&raquo;Tags</span>
+	      <a href="../"><img src="#BLOG-LOGO#" alt="#BLOG-NAME# logo" width="100%" style="vertical-align:middle;"></a><span style="padding-top:1em;">&nbsp;&nbsp;&nbsp;&nbsp;&raquo;Tags</span>
 	    </span>
 	  </nav>
 
@@ -981,7 +981,7 @@ Pages that describe a tag. Corresponding Org-mode entries must have:
 
 	  <nav class="temporal-article-header-nav">
 	    <span class="breadcrumbs">
-	      <a href="../../../../"><img src="#BLOG-LOGO#" alt="#BLOG-NAME# logo" width="350" style="vertical-align:middle;"></a><span style="padding-top:1em;">&nbsp;&nbsp;&nbsp;&nbsp;&raquo;<a href="../">Tags</a>&nbsp;&nbsp;&nbsp;&nbsp;&raquo;#ARTICLE-TITLE#</span>
+	      <a href="../../../../"><img src="#BLOG-LOGO#" alt="#BLOG-NAME# logo" width="100%" style="vertical-align:middle;"></a><span style="padding-top:1em;">&nbsp;&nbsp;&nbsp;&nbsp;&raquo;<a href="../">Tags</a>&nbsp;&nbsp;&nbsp;&nbsp;&raquo;#ARTICLE-TITLE#</span>
 	    </span>
 	  </nav>
 
@@ -1095,7 +1095,7 @@ FIXXME
 
 	  <nav class="month-overview-header-nav">
 	    <span class="breadcrumbs">
-	      <a href="../../"><img src="#BLOG-LOGO#" alt="#BLOG-NAME# logo" width="350" style="vertical-align:middle;"></a><span style="padding-top:1em;">&nbsp;&nbsp;&nbsp;&nbsp;&raquo;
+	      <a href="../../"><img src="#BLOG-LOGO#" alt="#BLOG-NAME# logo" width="100%" style="vertical-align:middle;"></a><span style="padding-top:1em;">&nbsp;&nbsp;&nbsp;&nbsp;&raquo;
 	      #YEAR#&nbsp;&ndash;&nbsp;#MONTH-TWODIGITNUMBER#</span>
 	    </span>
 	  </nav>

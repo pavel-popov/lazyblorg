@@ -1,0 +1,10 @@
+## -*- coding: utf-8 -*-
+## This file is best viewed with GNU Emacs Org-mode: http://orgmode.org/
+* Warnings and Error messages from lazyblorg     :lazyblorg:log:
+
+Messages gets appended to this file. Please remove fixed issues manually.
+
+
+** <2019-11-25 Mon 23:42 +1d> lazyblorg CRITICAL: Parsing error in file "/Users/pavel/Documents/org/pavel.org" which is not good. Therefore, I stop here and hope you can fix the issue in the Org-mode file. Reason: In state TABLE, current line "* Netherlands                                                            :nl:" did not start with either "|", "#+TBLFM:", or empty line. Please do not confuse me and fix it.
+
+** <2019-11-25 Mon 23:45 +1d> lazyblorg CRITICAL: Parsing error in file "/Users/pavel/Documents/org/pavel.org" which is not good. Therefore, I stop here and hope you can fix the issue in the Org-mode file. Reason: In state TABLE, current line "**** Org-mode" did not start with either "|", "#+TBLFM:", or empty line. Please do not confuse me and fix it.
